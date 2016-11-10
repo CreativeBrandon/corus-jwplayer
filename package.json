@@ -1,0 +1,40 @@
+{
+  "private": false,
+  "name": "corus-jwplayer",
+  "version": "0.0.1",
+  "homepage": "https://github.com/CreativeBrandon/corus-jwplayer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeBrandon/corus-jwplayer.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreativeBrandon/corus-jwplayer/issues"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "dt --changes",
+    "changes": "dt --changes",
+    "lint": "dt --lint",
+    "tscparams": "dt --tscparams --no-tests --no-headers",
+    "all": "dt",
+    "dry": "dt --dry --changes",
+    "list": "dt --dry --print-files --print-refmap",
+    "last": "dt --dry --print-files --print-refmap --changes",
+    "files": "dt --dry --print-files",
+    "refmap": "dt --dry --print-refmap",
+    "help": "dt -h"
+  },
+  "devDependencies": {
+    "definition-tester": "0.5.2",
+    "typescript": "1.8.7"
+  },
+  "description": "Jwplayer typings",
+  "main": "index.js",
+  "keywords": [
+    "typings"
+  ],
+  "author": "Cre8tivebreed <admin@cre8tivebreed.com>"
+}
